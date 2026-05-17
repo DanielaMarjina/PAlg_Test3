@@ -11,5 +11,11 @@ public class Main {
 
         Scanner scanner1=new Scanner(new FileReader("inputVrajitor.txt"));
         Vrajitorul_nepopular.citireFisier(scanner1);
+
+        Scanner scanner2=new Scanner(new FileReader("inputRFW.txt"));
+        Roy_Floyd_Warshall.citireFisier(scanner2);
+
+        Scanner scanner3=new Scanner(new FileReader("inputDijkstra.txt"));
+        Dijkstra.citireFisier(scanner3);
     }
 }
