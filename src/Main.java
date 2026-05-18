@@ -17,5 +17,11 @@ public class Main {
 
         Scanner scanner3=new Scanner(new FileReader("inputDijkstra.txt"));
         Dijkstra.citireFisier(scanner3);
+
+        Scanner scanner4=new Scanner(new FileReader("inputFacebook.txt"));
+        Facebook.citireFisier(scanner4);
+
+        Scanner scanner5=new Scanner(new FileReader("inputCC.txt"));
+        ComponenteConexe.citireFisier(scanner5);
     }
 }

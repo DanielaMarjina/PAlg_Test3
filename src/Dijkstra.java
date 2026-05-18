@@ -90,15 +90,15 @@ public class Dijkstra {
 
         }
 
-        System.out.println("tata: "+Arrays.toString(tata));
+//        System.out.println("tata: "+Arrays.toString(tata));
 
         for(int x:dist)
             fileWriter.write(x+" ");
 
         fileWriter.close();
 
-        System.out.println("Distanta de la nodul de start la celelalte: "+
-                Arrays.toString(dist));
+//        System.out.println("Distanta de la nodul de start la celelalte: "+
+//                Arrays.toString(dist));
 
         for (int i = 0; i < n; i++) {
             afiseazaDrum(start, i, tata, dist);
@@ -117,9 +117,9 @@ public class Dijkstra {
             x = tata[x];
         }
         Collections.reverse(drum);
-        System.out.print("Drum: " + drum +
-                " Cost: " + dist[nodFinal]);
-        System.out.println();
+//        System.out.print("Drum: " + drum +
+//                " Cost: " + dist[nodFinal]);
+//        System.out.println();
         return drum;
     }
 
