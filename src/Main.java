@@ -23,5 +23,20 @@ public class Main {
 
         Scanner scanner5=new Scanner(new FileReader("inputCC.txt"));
         ComponenteConexe.citireFisier(scanner5);
+
+        Scanner scanner6=new Scanner(new FileReader("inputColindatori.txt"));
+        Colindatori.citireFisier(scanner6);
+
+        Scanner scanner7=new Scanner(new FileReader("inputNoduriIzolate.txt"));
+        NoduriIzolate.citireFisier(scanner7);
+
+        Scanner scanner8=new Scanner(new FileReader("inputCelMaiPopular.txt"));
+        celMaiPopular.citireFisier(scanner8);
+
+        Scanner scanner9=new Scanner(new FileReader("inputLocalitatiBF.txt"));
+        LocalitatiBF.citireFisier(scanner9);
+
+        Scanner scanner10=new Scanner(new FileReader("inputLabirintBF.txt"));
+        LabirintBF.citireFisier(scanner10);
     }
 }
